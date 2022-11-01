@@ -4,6 +4,10 @@
 Unityの In App Purchaing パッケージは、2020以降でないと上記に対応したバージョンに出来ない。  
 このリポジトリは、Unity2019で　Google Play Billing Library v4 に対応するためのリソース。  
 
+# 動作確認環境
+
+Unity2019.4.21
+
 # 手順
 
 1. Packagesフォルダ内を自身のプロジェクトのPackagesフォルダに配置
@@ -12,8 +16,9 @@ Unityの In App Purchaing パッケージは、2020以降でないと上記に�
     "com.unity.analytics": "x.x.x",
     "com.unity.purchasing": "x.x.x",
 ```
-3. IAP初期化処理にUnity Gaming Servicesを初期化
+3. IAP初期化処理にUnity Gaming Servicesを初期化  
 参考: https://docs.unity3d.com/Packages/com.unity.purchasing@4.5/manual/UnityIAPInitializeUnityGamingServices.html
-4. （In App Purchaing の v2.x.x または v3.x.x だった場合） パッケージマネージャにて表示される手順で移行を完了させる
+4. （In App Purchaing の v2.x.x または v3.x.x だった場合） 以下画像に表示されている手順で移行を完了させる。  
+これはパッケージマネージャにて確認できる。
 <img width="737" alt="image" src="https://user-images.githubusercontent.com/101873335/199259109-fae24897-e5cf-460f-9bd7-2a7224b3d0f8.png">
 
